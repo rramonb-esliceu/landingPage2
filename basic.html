@@ -3,30 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/basic.css">
     <title>Basic HTML Website</title>
 </head>
 <body>
-    <div>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-filled" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M19 2h-14a3 3 0 0 0 -3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3 -3v-14a3 3 0 0 0 -3 -3z" stroke-width="0" fill="currentColor" />
-        </svg>
-        <p>Rubén</p>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="motos.html">Motos</a>
-            <a href="escapes.html">Escapes</a>
-            <a href="accesorios.html">Accesorios</a>
-            <a href="basic.html">Basic</a>
-            <a href="curriculum.html">Curriculum</a>
-            <a href="ejemplos.html">Ejemplos</a>
-            <a href="horari.html">Horari</a>        
-        </nav>
-        <h1>Desarrollador de Frontend</h1>
-        <p>html solo con el diseño adecuado, sin estilo</p>
-    </div>
-    <main>
-        <div>
+    <header class="container">
+        <div class="top">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-filled" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M19 2h-14a3 3 0 0 0 -3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3 -3v-14a3 3 0 0 0 -3 -3z" stroke-width="0" fill="currentColor" />
+                </svg>
+                <p>Rubén</p>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="motos.html">Motos</a>
+                <a href="escapes.html">Escapes</a>
+                <a href="accesorios.html">Accesorios</a>
+                <a href="basic.html">Basic</a>
+                <a href="curriculum.html">Curriculum</a>
+                <a href="ejemplos.html">Ejemplos</a>
+                <a href="horari.html">Horari</a>        
+            </nav>
+        </div>
+        <div class="hero">
+            <h1>Desarrollador de Frontend</h1>
+            <p class="text-center">html solo con el diseño adecuado, sin estilo</p>
+        </div>
+    </header>
+    <main class="container">
+        <section class="projects">
             <h2>Proyectos</h2>
             <ul>
                 <li>HTML solo portfolio</li>
@@ -35,52 +43,53 @@
                 <li>Temporizador de cuenta atrás</li>
                 <li>Próxima página del producto</li>
             </ul>
-        </div>
-        <div>
+        </section>
+        <section class="work">
             <h2>Expriencia laboral</h2>
             <h3>roadmap.sh</h3>
             <p>Todos los proyectos frontend resueltos </p>
             <a href="">Visita mi perfil</a>
-        </div>
-        <div>
             <h3>Trabajos de código abierto</h3>
             <p>Contribuí a 50 proyectos de código abierto. Hice mis propios proyectos con 200 estrellas de GitHub</p>
             <a href="">Visita mi perfil de GitHub</a>
-        </div>
-        <div>
+        </section>
+        <section class="education">
             <h2>Educación</h2>
             <p>Graduado con 3,76 sobre 4
                 CGPA. Gané el Acme Hackathon.
                 Organizó 30 sesiones.
                 Cursos que hice:
-                - Programación Orientada a Objetos
-                - Estructuras de datos y algoritmos
-                - Ingeniería Web
-                - Inteligencia artificial
-                - Interacción persona-computadora
-                - Gráficos por computadora
-                - Sistemas de Gestión de Bases de Datos
-                - Sistemas de bases de datos distribuidas
-                - Matemáticas discretas</p>
-        </div>
-        <div>
-            <h2>Comentarios de mis profesores</h2>
-            <fieldset>Rubén Ramón fue un brillante
-                alumno; siempre destacó
-                con sus asignaciones.
-                Jane Doe
-                Profesor asistente</fieldset>
-            <fieldset>Rubén Ramón fue un brillante
-                alumno; siempre destacó
-                con sus asignaciones.
-                Jane Doe
-                Profesor asistente</fieldset>
-            <fieldset>Rubén Ramón fue un brillante
-                alumno; siempre destacó
-                con sus asignaciones.
-                Jane Doe
-                Profesor asistente</fieldset>
-        </div>
+                <ul>
+                    <li>Programación Orientada a Objetos</li>
+                    <li>Estructuras de datos y algoritmos</li>
+                    <li>Ingeniería Web</li>
+                    <li>Inteligencia artificial</li>
+                    <li>Interacción persona-computadora</li>
+                    <li>Gráficos por computadora</li>
+                    <li>Sistemas de Gestión de Bases de Datos</li>
+                    <li>Sistemas de bases de datos distribuidas</li>
+                    <li>Matemáticas discretas</li>
+                </ul>
+            </p>
+        </section>
     </main>
+    <section class="reviews">
+        <h2>Comentarios de mis profesores</h2>
+        <fieldset>Rubén Ramón fue un brillante
+            alumno; siempre destacó
+            con sus asignaciones.
+            Jane Doe
+            Profesor asistente</fieldset>
+        <fieldset>Rubén Ramón fue un brillante
+            alumno; siempre destacó
+            con sus asignaciones.
+            Jane Doe
+            Profesor asistente</fieldset>
+        <fieldset>Rubén Ramón fue un brillante
+            alumno; siempre destacó
+            con sus asignaciones.
+            Jane Doe
+            Profesor asistente</fieldset>
+    </section>
 </body>
 </html>
