@@ -83,21 +83,45 @@ img{
 }
 
 .projects{
-    background-color: yellow;
+    background-color: #f5ed48;
     padding: 1rem;
+    width: 33%;
+    border: 2px solid black;
 }
 
 .work{
-    background-color: red;
-    padding-left: 1rem;
+    background-color: #f54848;
+    padding: 1rem;
+    width: 33%;
+    padding: 1rem;
+    border: 2px solid black;
 }
 
 .education{
-    background-color: pink;
-    padding-left: 1rem;
+    background-color: #f548c1;
+    padding: 4rem;
+    width: 33%;
+    border: 2px solid black;
 }
 
 
 main{
     display: flex;
+    gap: 1rem;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.review {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    background-color: #96ff86;
+    margin:5rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid black;
 }
