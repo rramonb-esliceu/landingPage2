@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(175, 127, 0);
+}
+
+.tab-container-1{
+    display: flex;
+    width:100%;
+    background-color: rgba(48, 43, 42);
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+
+.tab-container-1 div{
+    color: rgba(194, 191, 193);
+    width: 10%;
+    text-align: center;
+/*    border-radius: 12px;*/
+/*    padding: 10px 0;*/
+}
+
+.tab-container-1 div:hover{
+    color: white;
+    cursor: pointer;
+}
