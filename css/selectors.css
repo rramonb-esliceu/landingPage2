@@ -54,18 +54,18 @@ div:nth-child(3) p{
 }
 
 /* Fes que el 2n <p> dins el  3r  <div> tingui un border de 5px blanc*/
-div:nth-child(3) p:nth-child(2){
+div:nth-of-type(3) p:nth-of-type(2){
     border: 5px solid white;
 }
 
 /* Fen que l'element <em> del 3r <div> sigui blanc amb una font de 20px (font-size:20px)*/
-div:nth-child(3) em{
+div:nth-of-type(3) em{
     background-color: white;
     font-size: 20px;
 }
 
 /*Fes que el 1r <p> dins el 3r <div> tingui un marge superior de 20px (margin-top: 20px)*/
-div:nth-child(3) p:nth-child(1){
+div:nth-of-type(3) p:nth-of-type(1){
     margin-top: 20px;
 }
 
